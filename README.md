@@ -1,8 +1,8 @@
 ################## Efficiency_edelweis ##################
-#          Soft framework to compute effyciency         #
-#          based on NEPAL Pulse simulation output       #
-#                     13/03/2021                        #
-#          author : Quentin Arnaud and Hugues Lattaud   #
+          Soft framework to compute effyciency         
+          based on NEPAL Pulse simulation output       
+                     13/03/2021                        
+          author : Quentin Arnaud and Hugues Lattaud   
 #########################################################
 
 This framework aims to build effyciency curve in the context of
@@ -16,7 +16,7 @@ response in a large energy range.
 The first step consist in building the reference event bank you will later on
 inject.
 
-***********************Step 1 : Reference event bank Building*****************
+**Step 1 : Reference event bank Building*****************
 
 This step is done by  NEPAL_Template_Select, it takes as inputs, the path to the Nepal processed 
 data, the path to the triggered Trace,   the path to the templates, the detector name, the channel you trigger on, a list file of the run to scan for event selection, a boolean to set at false (obsolete option).
